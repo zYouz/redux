@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300,400,500|PT+Sans+Narrow:400,700|Play:400,700|Ubuntu+Condensed&display=swap&subset=cyrillic");
+.add_btn {
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: bold;
+	align-content: center;
+}
+.task_card {
+	margin: 10% 20%;
+	padding: 5%;
+	border: 2px solid black;
+	border-radius: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background: #fdf5df;
+}
+.plus_btn_icon {
+	background: none;
+}
+.mng_links {
+	font-family: "Oswald", sans-serif;
+	height: 100%;
+	background-color: white;
+	color: #252525;
+	font-family: "Oswald", sans-serif;
+	border-radius: 7px;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+	text-transform: uppercase;
+	position: relative;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 16px;
+	transform: skew(-21deg);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+	margin: 5px;
+	padding: 0 40px;
+	cursor: pointer;
+}
+.mng_links:hover {
+	background: #0d6efd;
+	color: #fff;
+}
